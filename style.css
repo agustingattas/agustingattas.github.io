@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://images.pexels.com/photos/4134179/pexels-photo-4134179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100% 50%;
+}
+.container{
+    background-color: rgba(255, 212, 125, 0.929);
+}
+#foto {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col img {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin: 15px;
+    border: 3px solid black;
+    justify-content: center;
+    
+}
+.caja{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.tituloSkills {
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    background-color: rgb(255, 170, 0);
+}
